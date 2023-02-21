@@ -2,6 +2,7 @@
 
 /**
  * main -entry point
+ * Description: 'printing _putchar'
  * return: Always 0 success
  */
 int main(void)
