@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i;
+	int i, k;
 
 	for (i = '0'; i <= '9'; i++)
 	{
@@ -21,12 +21,12 @@ int main(void)
 		if (k != '9')
 
 	{
-		putchar("%d:%d",i,k);
+		putchar("%d%d",i,k);
 
 		{
-			putchar(',');
+			putchar (',');
 
-			putchar(' ');
+			putchar (' ');
 		}
 	}
 	}
@@ -35,4 +35,3 @@ int main(void)
 
 	return (0);
 }
-
