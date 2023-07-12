@@ -3,7 +3,8 @@
 /**
  * _strlen - count array
  * @s: array of elements
- * return: i
+ *
+ * Return: i
  */
 
 int _strlen(char *s)
@@ -21,7 +22,8 @@ int _strlen(char *s)
  * str_concat - back a pointer to array
  * @s1: array one
  * @s2: array two
- * return: always an arry dinamic
+ *
+ * Return: always an arry dinamic
  */
 char *str_concat(char *s1, char *s2)
 {
