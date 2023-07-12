@@ -2,7 +2,8 @@
 /**
  * _strlen - count array
  * @s: array of elements
- * return: 1
+ *
+ * Return: i
  */
 
 int _strlen(char *s)
@@ -18,9 +19,10 @@ int _strlen(char *s)
 }
 /**
  * _strcpy - copy arrays
- * @scr: array of elements
+ * @src: array of elements
  * @dest: dest array
- * return: dest
+ *
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -38,7 +40,8 @@ char *_strcpy(char *dest, char *src)
 /**
  * _strdup - array for prints a string
  * @str: array of elements
- * return: pionter
+ *
+ * Return: pionter
  */
 
 char *_strdup(char *str)
@@ -52,7 +55,7 @@ char *_strdup(char *str)
 	}
 	size = _strlen(str) + 1;
 
-	dst = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
